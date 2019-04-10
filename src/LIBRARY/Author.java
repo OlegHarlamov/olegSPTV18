@@ -1,5 +1,13 @@
 package LIBRARY;
 public class Author {
-    public String name;
-    public String author;
+    private String[] authors = {"Ваня", "Андрей", "Вася", "Артём", "Гена"} ;
+
+    public String[] getAuthors() {
+        return authors;
+    }
+
+    public void setAuthors(String[] authors) {
+        this.authors = authors;
+    }
+    
 }
