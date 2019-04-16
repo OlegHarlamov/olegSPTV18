@@ -13,9 +13,7 @@ this.title = title;
         new Book(),
         new Book()
         };
-         for (int i = 0; i < 11; i++) {
-         System.out.println(authorArray[0].getAuthors()[11]);
-         }
+         
          String [] books = new String[10];
         books[0] = "Title book: " + bookArray[0].getBooks()[0] + " author: " + authorArray[0].getAuthors()[0];
         books[1] = "Title book: " + bookArray[0].getBooks()[1] + " author: " + authorArray[0].getAuthors()[1];
