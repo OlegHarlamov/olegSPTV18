@@ -1,9 +1,5 @@
 package LIBRARY;
-public class Lib{
-    String title;
-    public Lib(String title){
-this.title = title;
-}
+public class Lib{ 
     public static void main(String[] args){
         Author[] authorArray = {new Author(), 
             new Author(), 
@@ -31,8 +27,6 @@ this.title = title;
         for(String x: books){
             System.out.println(x);
         }
-}
-    public String toString(){
-        return title;
-    }
+        
+}    
 }
